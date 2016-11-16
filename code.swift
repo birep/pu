@@ -5,7 +5,7 @@ import AVFoundation
 var player: AVAudioPlayer?
 
 func playSound() {
-    guard let url = Bundle.main.url(forResource: "soundName", withExtension: "mp3") else {
+    guard let url = Bundle.main.url(forResource: "pu1", withExtension: "mp3") else {
         print("url not found")
         return
     }
